@@ -1,0 +1,98 @@
+#modal{
+    /* width: 400px;
+    height: 250px;
+    position: absolute;
+    display: none;
+    background-color: rgb(30, 183, 136);
+    left: 450px;
+    top: 100px;
+    border-style:solid;
+    border-radius: 2%;
+    padding: 10px 10px 40px 10px;
+    z-index: 0; */
+    position: fixed;         /* Keeps the modal fixed on the viewport */
+    top: 50%;                /* Positions modal in the vertical center */
+    left: 50%;               /* Positions modal in the horizontal center */
+    transform: translate(-50%, -50%);  /* Shifts the modal exactly to the center */
+    width: 80%;              /* Optional: width of the modal */
+    max-width: 500px;        /* Optional: maximum width for responsiveness */
+    padding: 20px;           /* Optional: spacing inside the modal */
+    background-color: rgb(30, 183, 136); /* Background color for the modal */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: adds shadow for depth */
+    border-radius: 8px;      /* Optional: rounded corners */
+    z-index: 1000; 
+    
+}
+/* #forms{
+    position: absolute;
+    top: 35px;
+    left: 30px;
+} */
+
+input[type=text] {
+    width: 70%;
+    padding: 12px 20px;
+    margin-bottom: 5px;
+
+    border-style: solid;
+    border-color: rgb(71, 168, 189);
+    border-radius: 9cqh;
+    
+  }
+
+  #btn1{
+    width: 100px;
+    height: 30px;
+    border-radius:2cap;
+    margin-left: 180px;
+    margin-top: 30px;
+    font-size: medium;
+    font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    background-color:darkslategrey
+  }
+  #btn1:hover{
+    background-color: antiquewhite;
+    color: black;
+  }
+
+
+  body{
+    background-color: rgb(134, 186, 189);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* rgb(105, 84, 189) */
+  }
+  .tableContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 50%;
+  }
+  #table{
+    width: 67%;
+  }
+  #btn{
+    width: 100px;
+    height: 30px;
+    font-size: medium;
+
+  }
+  td{
+     text-align: center;
+  }
+  #dataTable{
+    width: 50%;
+  }
+  td, th {
+    border: 1px solid #777;
+    padding: 0.5rem;
+    text-align: center;
+    overflow: hidden;
+}
+  
